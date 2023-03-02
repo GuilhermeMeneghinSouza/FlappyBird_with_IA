@@ -1,14 +1,14 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Menu",
+  "name": "r_Menu",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_1C721266","path":"rooms/Menu/Menu.yy",},
-    {"name":"inst_6B54B6EA","path":"rooms/Menu/Menu.yy",},
+    {"name":"inst_1C721266","path":"rooms/r_Menu/r_Menu.yy",},
+    {"name":"inst_6B54B6EA","path":"rooms/r_Menu/r_Menu.yy",},
   ],
   "isDnd": false,
   "layers": [
