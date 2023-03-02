@@ -2,7 +2,7 @@ if (drawer) {
 	if (image_index == 0 and draw) {
 		draw = false;
 		
-		obj = instance_create_depth(x, y, 0, o_Score);
+		obj = instance_create_layer(x, y, "GUID", o_Score);
 		obj.timer = self.timer
 		obj.drawer = false;
 		obj.alarm[0] = obj.timer;
@@ -14,3 +14,7 @@ if (drawer) {
 	}
 	if (image_index == 9) draw = true;
 }
+//if (y == 56 and not morreu) {
+//	morreu = true;
+//	x -= 61;
+//}
