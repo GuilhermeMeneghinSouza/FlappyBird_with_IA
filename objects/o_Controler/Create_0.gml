@@ -9,13 +9,13 @@ alarm_set(0, tubes_timer);
 #endregion
 
 #region methods
-function verify_birds() {
-	var living = true;
+function verify_birds_dead() {
+	var dead = true;
 	// run through all birds checking if are alive
 	with (o_Bird) {
-		living = living and alive;
+		dead = dead and not alive;
 	}
-	return living;
+	return dead;
 }
 
 function change_difficulty(mode) {

@@ -36,6 +36,7 @@
     {"name":"s_bronze","order":4,"path":"sprites/s_bronze/s_bronze.yy",},
     {"name":"s_start_button","order":4,"path":"sprites/s_start_button/s_start_button.yy",},
     {"name":"r_Menu","order":1,"path":"rooms/r_Menu/r_Menu.yy",},
+    {"name":"o_NeuralNetwork","order":1,"path":"objects/o_NeuralNetwork/o_NeuralNetwork.yy",},
     {"name":"o_IA_menu","order":1,"path":"objects/o_IA_menu/o_IA_menu.yy",},
     {"name":"s_tube","order":1,"path":"sprites/s_tube/s_tube.yy",},
     {"name":"s_number","order":5,"path":"sprites/s_number/s_number.yy",},

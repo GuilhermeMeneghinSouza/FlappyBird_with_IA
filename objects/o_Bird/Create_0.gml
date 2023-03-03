@@ -2,6 +2,9 @@
 flying_time = 0;
 alive = true;
 _score = 0;
+timer = SECONDS
+
+alarm_set(0,timer);
 
 #endregion
 
@@ -14,4 +17,18 @@ function fly() {
 	}
 	else y += GRAVITY_SPEED;
 }
+
+function save_score() {
+	if (room_get_name(room) == "r_Game") {
+		ini_open(SAVE_FILE);
+
+		var oldscore = ini_read_real("SCORE", "best", 0);
+		if (oldscore < _score) {
+			ini_write_real("SCORE", "best", _score);
+		}
+
+		ini_close();
+	}
+}
+
 #endregion
