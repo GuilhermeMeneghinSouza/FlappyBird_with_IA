@@ -41,7 +41,6 @@
     {"name":"s_number","order":5,"path":"sprites/s_number/s_number.yy",},
     {"name":"o_Tube","order":2,"path":"objects/o_Tube/o_Tube.yy",},
     {"name":"s_silver","order":2,"path":"sprites/s_silver/s_silver.yy",},
-    {"name":"o_BirdIA","order":1,"path":"objects/o_BirdIA/o_BirdIA.yy",},
     {"name":"s_killer_template","order":3,"path":"sprites/s_killer_template/s_killer_template.yy",},
     {"name":"s_background","order":6,"path":"sprites/s_background/s_background.yy",},
     {"name":"r_IA","order":2,"path":"rooms/r_IA/r_IA.yy",},
