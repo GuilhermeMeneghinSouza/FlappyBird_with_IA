@@ -1,1 +1,4 @@
+#macro GRAVITY_SPEED 1.03
+#macro FLYING_SPEED -1.25
+#macro FLYING_IMPULSE 5
 #macro SECONDS 60

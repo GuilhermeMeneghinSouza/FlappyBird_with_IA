@@ -1,1 +1,1 @@
-global.alive = false;
+alive = false;
