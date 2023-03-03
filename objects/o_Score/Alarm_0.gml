@@ -1,4 +1,4 @@
-if (global.alive)
+if (o_Controler.verify_birds())
 {
 	if (image_index < 10) image_index += 1;
 	else // reset timer score
