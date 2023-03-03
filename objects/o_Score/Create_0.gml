@@ -14,16 +14,16 @@ function build(score_obj, _timer, _drawer) {
 	}
 }
 
-function draw_new_decimal_place() {
+function draw_new_decimal_place(me) {
 	// create a new score
 	new_score_id = instance_create_layer(x, y, "GUID", o_Score);
 	build(new_score_id, timer, false);
 
 	// fix timer
-	timer = timer * 10;
-	alarm_set(0, timer);
+	me.timer = me.timer * 10;
+	me.alarm_set(0, me.timer);
 	// fix position
-	x -= 8;
+	me.x -= 8;
 }
 
 #endregion
