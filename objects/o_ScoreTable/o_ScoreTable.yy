@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "MenuGUID",
-    "path": "folders/Objects/MenuGUID.yy",
+    "name": "texts",
+    "path": "folders/Objects/MenuGUID/texts.yy",
   },
   "parentObjectId": null,
   "persistent": false,
