@@ -1,5 +1,3 @@
-// Os recursos de script mudaram para a v2.3.0; veja
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
 function jump(bird){
 	tube = instance_nearest(bird.x, bird.x, o_Tube);
 	if instance_number(tube) {

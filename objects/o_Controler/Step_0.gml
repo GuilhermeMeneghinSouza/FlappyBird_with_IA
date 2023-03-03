@@ -1,4 +1,3 @@
-if global.alive == false and not game_over_drawed {
-	game_over_drawed = true;
+if (not (verify_birds() or game_over_drawed)) {
 	call_game_over();
 }

@@ -55,7 +55,6 @@
     {"id":{"name":"o_GameOver","path":"objects/o_GameOver/o_GameOver.yy",},"order":0,},
     {"id":{"name":"s_bronze","path":"sprites/s_bronze/s_bronze.yy",},"order":4,},
     {"id":{"name":"s_start_button","path":"sprites/s_start_button/s_start_button.yy",},"order":4,},
-    {"id":{"name":"srcGameControl","path":"scripts/srcGameControl/srcGameControl.yy",},"order":0,},
     {"id":{"name":"r_Menu","path":"rooms/r_Menu/r_Menu.yy",},"order":1,},
     {"id":{"name":"s_bird","path":"sprites/s_bird/s_bird.yy",},"order":0,},
     {"id":{"name":"o_IA_menu","path":"objects/o_IA_menu/o_IA_menu.yy",},"order":1,},

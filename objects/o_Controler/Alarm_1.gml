@@ -1,6 +1,5 @@
-if (difficulty < 1.70) {
-	difficulty += .1;
-	show_debug_message(difficulty);
-	set_difficulty(difficulty);
-	alarm_set(1, MODE_CHANGER);
-}
+/// Tubes runtime
+var ypos = random_range(TUBES_MIN, TUBES_MAX);
+instance_create_layer(OUT_OFF_ROOM, ypos, "Instances", o_Tube);
+
+alarm_set(1, tubes_timer);

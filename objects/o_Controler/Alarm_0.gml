@@ -1,4 +1,10 @@
-ypos = random_range(40, 85);
-instance_create_depth(256, ypos, 1, o_Tube);
+/// Changes difficulty every 120 frames
 
-alarm_set(0, global.tumes_timer);
+// limit dificulty and background speed
+if (difficulty < 12)
+{
+	difficulty += 1;
+
+	change_difficulty(difficulty);
+	alarm_set(0, DIFFICULTY_TIMER);
+}
