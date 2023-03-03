@@ -2,9 +2,10 @@
 n1_weight = array_create(5);
 n2_weight = array_create(5);
 n3_weight = array_create(2);
+neural_score = 0;
 
 bird = instance_create_layer(BIRDS_POSITION_X, BIRDS_POSITION_Y, "Instances", o_Bird);
-bird.timer = 1;
+
 #endregion
 
 #region methods
