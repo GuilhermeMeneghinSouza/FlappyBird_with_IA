@@ -2,9 +2,8 @@
 flying_time = 0;
 alive = true;
 _score = 0;
-timer = SECONDS
 
-alarm_set(0,timer);
+alarm_set(0, SECONDS);
 
 #endregion
 
