@@ -17,3 +17,27 @@ This projects also is an exercise for me, so there is somethings more features t
 - mode for humans 
 
 But, **this is not the end point of this project**. So ignore bugs or bad implementation.
+
+---
+
+# IA
+
+## Solution:
+Here is one of the best solutions that my code found:
+``` ini file
+[IA]
+score="220948.000000"
+n1_weight0="-64.000000"
+n2_weight0="-43.000000"
+n3_weight0="84.000000"
+n1_weight1="69.000000"
+n2_weight1="17.000000"
+n3_weight1="82.000000"
+n1_weight2="0.000000"
+n2_weight2="80.000000"
+n1_weight3="-8.000000"
+n2_weight3="-76.000000"
+n1_weight4="0.000000"
+n2_weight4="-60.000000"
+```
+Just copy this to your `savedata.ini` file, and test. On windows must be located at `$HOME/AppData/Local/Flappy_Bird`. On Ubuntu, I have no idea, and I didn't test if this run on ArchLinux, because the Game Maker say its compile just for Ubuntu so... 🤷
