@@ -33,10 +33,10 @@ function set_weight(n1, n2, n3) {
 	n2_weight = n2;
 	n3_weight = n3;
 }
+
 #endregion
 
 #region building
-#region get best ia to w1, w2, w3
 var w1 = array_create(5);
 var w2 = array_create(5);
 var w3 = array_create(2);
@@ -58,8 +58,7 @@ if (neural_id != 0) {
 	n1_weight[irandom(4)] = irandom_range(WEIGHT_MIN, WEIGHT_MAX);
 	n2_weight[irandom(4)] = irandom_range(WEIGHT_MIN, WEIGHT_MAX);
 	n3_weight[irandom(1)] = irandom_range(WEIGHT_MIN, WEIGHT_MAX);
+	bird.image_blend = make_color_rgb(126, irandom(255), neural_id);
 }
-
-#endregion
 
 #endregion

@@ -8,8 +8,8 @@ best = noone;
 function save_best_ia() {
 	ini_open(SAVE_FILE);
 
-	if (best.bird._score > ini_read_real("IA", "score", 0)) {
-		ini_write_real("IA", "score", best.bird._score);
+	if (best.neural_score > ini_read_real("IA", "score", 0)) {
+		ini_write_real("IA", "score", best.neural_score);
 
 		for (var i = 0; i < 5; i += 1;) {
 			ini_write_real("IA", string("n1_weight{0}", i), best.n1_weight[i]);

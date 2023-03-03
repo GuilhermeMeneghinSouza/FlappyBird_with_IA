@@ -23,7 +23,7 @@
 #endregion
 
 #region IA
-#macro NUM_BIRDS 20
+#macro NUM_BIRDS 100
 #macro WEIGHT_MIN -100
 #macro WEIGHT_MAX 100
 #endregion
