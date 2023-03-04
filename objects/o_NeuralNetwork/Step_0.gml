@@ -5,7 +5,6 @@ if (bird.alive) {
 						  (tube.x -bird.x)]);
 
 	if (out_put) bird.flying_time = 0;		// fly
-	else bird.flying_time = FLYING_IMPULSE; // fall
 
 	neural_score += 1;
 }
