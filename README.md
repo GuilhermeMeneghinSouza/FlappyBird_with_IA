@@ -8,8 +8,6 @@ I don't know if the sprites are copyrighted or not and they are binary, so I did
 
 IA works great at v2.0, but with a few caveats:
 - Tubes are deleted after crossing birds position.
-- IAs have control much control them us about there movement, they can fly in a contant position and instantly stop flying.
-    - This is easy to fix, but will be done later.
 
 This projects also is an exercise for me, so there is somethings more features than just the IA, as:
 - score
@@ -26,7 +24,6 @@ But, **this is not the end point of this project**. So ignore bugs or bad implem
 Here is one of the best solutions that my code found:
 ``` ini file
 [IA]
-score="220948.000000"
 n1_weight0="-64.000000"
 n2_weight0="-43.000000"
 n3_weight0="84.000000"
